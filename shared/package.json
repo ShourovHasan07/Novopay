@@ -1,0 +1,19 @@
+{
+  "name": "@novapay/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities for NovaPay microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^11.1.18",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.5.2"
+  }
+}
