@@ -10,7 +10,7 @@ export class FxService {
 
   constructor(
     @InjectModel(FxQuote)
-    private readonly fxQuoteModel: typeof FxQuote, // ✅ use typeof FxQuote
+    private readonly fxQuoteModel: typeof FxQuote, //  use typeof FxQuote
     @InjectConnection()
     private readonly sequelize: Sequelize,
   ) {}

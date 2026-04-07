@@ -1,5 +1,5 @@
 {
-  "name": "account-service",
+  "name": "ledger-service",
   "version": "1.0.0",
   "dependencies": {
     "@nestjs/common": "^10.4.22",

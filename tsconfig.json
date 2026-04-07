@@ -8,7 +8,7 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "types": ["node"]     // <-- Node types include করো
+    "types": ["node"]     // <-- Node types include 
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]

@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "module": "commonjs",                    // Node.js এর জন্য module system
-    "target": "ES2020",                      // Output JS version
-    "strict": true,                          // সব strict TypeScript rules চালু করবে
-    "experimentalDecorators": true,          // Decorators enable করতে হবে
-    "emitDecoratorMetadata": true,           // Decorators metadata generate করবে
-    "strictPropertyInitialization": true,    // Property init rules enforce করবে
-    "esModuleInterop": true,                 // Import compatibility
-    "skipLibCheck": true,                     // node_modules ignore করবে
-    "forceConsistentCasingInFileNames": true // File names case sensitive check
+    "module": "commonjs",                   
+    "target": "ES2020",                      
+    "strict": true,                         
+    "experimentalDecorators": true,          
+    "emitDecoratorMetadata": true,           
+    "strictPropertyInitialization": true,    
+    "esModuleInterop": true,                 
+    "skipLibCheck": true,                    
+    "forceConsistentCasingInFileNames": true 
   },
-  "include": ["src/**/*"],                    // যেসব ফাইল compile হবে
-  "exclude": ["node_modules", "dist"]         // exclude folders
+  "include": ["src/**/*"],                    
+  "exclude": ["node_modules", "dist"]       
 }
