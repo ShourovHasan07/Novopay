@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { Transaction } from './models/transaction.model';
 import { Queue } from 'bullmq';
 import IORedis from 'ioredis';
-import { logger } from '../../shared/utils/logger';
+import { logger } from '@shared/utils/logger';
 
 const connection = new IORedis({ host: process.env.REDIS_HOST || 'localhost', port: 6379 });
 const payrollQueue = new Queue('payroll', { connection });

@@ -1,9 +1,15 @@
-
-
 FROM node:20-alpine
+
 WORKDIR /usr/src/app
-COPY package.json package-lock.json* ./
-RUN npm install
+
+# পুরো প্রজেক্ট কপি করছি (shared সহ)
 COPY . .
+
+# এখন service ফোল্ডারে চলে যাচ্ছি
+WORKDIR /usr/src/app/payroll-service
+
+RUN npm install
+
 EXPOSE 3006
+
 CMD ["npm", "run", "start"]

@@ -1,5 +1,5 @@
 {
-  "name": "@novapay/shared",
+  "name": "shared",
   "version": "1.0.0",
   "description": "Shared utilities for NovaPay microservices",
   "main": "dist/index.js",

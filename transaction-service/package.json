@@ -1,5 +1,5 @@
 {
-  "name": "account-service",
+  "name": "transaction-service",
   "version": "1.0.0",
   "dependencies": {
     "@nestjs/common": "^10.4.22",
@@ -33,6 +33,7 @@
     "@types/ioredis": "^4.28.10",
     "@types/node": "^25.5.2",
     "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
     "typescript": "^6.0.2"
   }
 }
