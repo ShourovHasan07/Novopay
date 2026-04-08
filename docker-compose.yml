@@ -21,7 +21,7 @@ services:
 
   account-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                          
       dockerfile: ./account-service/Dockerfile
     container_name: account-service
     ports:
@@ -43,7 +43,7 @@ services:
 
   transaction-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                         
       dockerfile: ./transaction-service/Dockerfile
     container_name: transaction-service
     ports:
@@ -65,7 +65,7 @@ services:
 
   ledger-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                        
       dockerfile: ./ledger-service/Dockerfile
     container_name: ledger-service
     ports:
@@ -84,7 +84,7 @@ services:
 
   fx-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                          
       dockerfile: ./fx-service/Dockerfile
     container_name: fx-service
     ports:
@@ -103,7 +103,7 @@ services:
 
   payroll-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                          
       dockerfile: ./payroll-service/Dockerfile
     container_name: payroll-service
     ports:
@@ -125,7 +125,7 @@ services:
 
   admin-service:
     build:
-      context: .                          # ← এটা পরিবর্তন করা হয়েছে
+      context: .                          
       dockerfile: ./admin-service/Dockerfile
     container_name: admin-service
     ports:

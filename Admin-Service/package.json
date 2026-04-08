@@ -1,6 +1,14 @@
 {
   "name": "admin-service",
   "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node -r tsconfig-paths/register src/main.ts",
+    "start:dev": "ts-node-dev src/main.ts",
+    "build": "tsc"
+  },
   "dependencies": {
     "@nestjs/common": "^10.4.22",
     "@nestjs/config": "^4.0.3",
@@ -18,21 +26,11 @@
     "sequelize-typescript": "^2.1.6",
     "uuid": "^13.0.0"
   },
-  "scripts": {
-    "start": "ts-node -r tsconfig-paths/register src/main.ts",  
-    "start:dev": "ts-node-dev src/main.ts",
-    "build": "tsc"
-  },
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
     "@types/node": "^25.5.2",
     "@types/uuid": "^10.0.0",
     "ts-node": "^10.9.2",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.2",
+    "tsconfig-paths": "^4.2.0"
   }
 }
